@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phszawadzki/react_grunt/static/css/main.088b6ab0.css",
+    "main.js": "/phszawadzki/react_grunt/static/js/main.cd283b8c.js",
+    "index.html": "/phszawadzki/react_grunt/index.html",
+    "main.088b6ab0.css.map": "/phszawadzki/react_grunt/static/css/main.088b6ab0.css.map",
+    "main.cd283b8c.js.map": "/phszawadzki/react_grunt/static/js/main.cd283b8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.088b6ab0.css",
+    "static/js/main.cd283b8c.js"
+  ]
+}
