@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 body {
-    background: black;
-    color: white;
+    /* background: black;
+    color: white; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
