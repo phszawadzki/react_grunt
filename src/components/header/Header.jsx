@@ -2,9 +2,9 @@ import React from 'react'
 import './header.css'
 
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
         <div className="col-md-6 header">
           <div className="header__text">
             <h1>GRUNT</h1>
-            <h2 className="pt-1 pb-4"> Geodezyjna Obsługa Inwestycji</h2>
+            <h2 className="pt-1 pb-4">Usługi Geodezyjne</h2>
             <a href="#contact" className="btn">Zamów wycenę</a>
           </div>
         </div>

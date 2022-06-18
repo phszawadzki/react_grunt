@@ -1,25 +1,17 @@
 .hero-image {
-    font-family: 'Montserrat', sans-serif !important;
     font-weight: 200;
     color:white;
 
     padding: 5rem 5rem;
 
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../../../src/assets/measurement-4204840_1920.jpg");
+    url("../../../src/assets/header_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
     
-h1 {
-    font-size: 5rem;
-    font-weight: 300;
-}
- h2 {
-    font-weight: 200;
- }
 
 .btn {
     text-decoration: none;

@@ -8,25 +8,26 @@ import Col from 'react-bootstrap/Col';
 
 const about = () => {
   return (
-    // <Container className='about__me'>
-    //   <Row>
-    //     <Col>
-    //       <h1>O mnie</h1>
-    //       <p>Jestem inżynierem geodetą z 24 letnim doświadczeniem zawodowym. Posiadam uprawnienia 
-    //         zawodowe do wykonywania samodzielnie funkcji w dziedzinie geodezji i kartografii w dwóch
-    //         zakresach. Pierwszym - geodezyjne pomiary sytuacyjno-wysokościowe, realizacyjne i
-    //           inwentaryzacyjne. Drugim - rozgraniczanie i podziały nieruchomości (gruntów) oraz 
-    //           sporządzanie dokumentacji do celów prawnych. Moje kwalifikacje i długoletnie doświadczenie
-    //           zawodowe stanowią gwarancję, kompleksowego i rzetelnego wykonania świadczonych 
-    //           przeze mnie usług geodezyjnych.
-    //       </p>
-    //     </Col>
-    //     <Col>
-    //       <img src={ ME } alt="Radek Marciniak" className='about__image'/>
-    //     </Col>
-    //   </Row>
-    // </Container>
-    <Container className='about__me'>
+    <>
+    <Container className='about__me about__me__big '>
+      <Row>
+        <Col>
+          <h1>O mnie</h1>
+          <p>Jestem inżynierem geodetą z 24 letnim doświadczeniem zawodowym. Posiadam uprawnienia 
+            zawodowe do wykonywania samodzielnie funkcji w dziedzinie geodezji i kartografii w dwóch
+            zakresach. Pierwszym - geodezyjne pomiary sytuacyjno-wysokościowe, realizacyjne i
+              inwentaryzacyjne. Drugim - rozgraniczanie i podziały nieruchomości (gruntów) oraz 
+              sporządzanie dokumentacji do celów prawnych. Moje kwalifikacje i długoletnie doświadczenie
+              zawodowe stanowią gwarancję, kompleksowego i rzetelnego wykonania świadczonych 
+              przeze mnie usług geodezyjnych.
+          </p>
+        </Col>
+        <Col className='text-center'>
+          <img src={ ME } alt="Radek Marciniak" className='about__image'/>
+        </Col>
+      </Row>
+    </Container>
+    <Container className='about__me about__me__small'>
       <Row>
         <Col xs={8} md={8} className='o_mnie'>
           <h1>O mnie</h1>
@@ -36,15 +37,15 @@ const about = () => {
         </Col>
       </Row>
       <p>Jestem inżynierem geodetą z 24 letnim doświadczeniem zawodowym. Posiadam uprawnienia 
-            zawodowe do wykonywania samodzielnie funkcji w dziedzinie geodezji i kartografii w dwóch
-            zakresach. Pierwszym - geodezyjne pomiary sytuacyjno-wysokościowe, realizacyjne i
-              inwentaryzacyjne. Drugim - rozgraniczanie i podziały nieruchomości (gruntów) oraz 
-              sporządzanie dokumentacji do celów prawnych. Moje kwalifikacje i długoletnie doświadczenie
-              zawodowe stanowią gwarancję, kompleksowego i rzetelnego wykonania świadczonych 
-              przeze mnie usług geodezyjnych.
+        zawodowe do wykonywania samodzielnie funkcji w dziedzinie geodezji i&nbsp;kartografii w
+        &nbsp;dwóch zakresach. Pierwszym - geodezyjne pomiary sytuacyjno-wysokościowe, realizacyjne 
+         i&nbsp;inwentaryzacyjne. Drugim - rozgraniczanie i&nbsp;podziały nieruchomości (gruntów) 
+         oraz sporządzanie dokumentacji do celów prawnych. Moje kwalifikacje i&nbsp;długoletnie 
+         doświadczenie zawodowe stanowią gwarancję, kompleksowego i&nbsp;rzetelnego wykonania 
+         świadczonych przeze mnie usług geodezyjnych.
           </p>
     </Container>
-
+    </>
   )
 }
 
