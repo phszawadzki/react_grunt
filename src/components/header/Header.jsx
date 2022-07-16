@@ -9,14 +9,14 @@ import './header.css'
 const Header = () => {
   return (
     <>
-     <div className="hero-image mb-1">
+     <div className="hero__image mb-1">
       <div className="row justify-content-md-center pb-5 pt-5" >
         <div className="col-md-6"></div>
         <div className="col-md-6 header">
           <div className="header__text">
             <h1>GRUNT</h1>
             <h2 className="pt-1 pb-4">Usługi Geodezyjne</h2>
-            <a href="#contact" className="btn">Zamów wycenę</a>
+            <a href="tel:+48728273904" className="btn">Zamów wycenę</a>
           </div>
         </div>
       </div>

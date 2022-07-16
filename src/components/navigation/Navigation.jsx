@@ -10,18 +10,18 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Navigation = () => {
   return ( <div>
-    <Navbar bg="light" expand="lg">
+    {/* <Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home"><img src={ LOGO } alt="" width="40" height="40"/></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link href="#home">O mnie</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
+        <Nav.Link href="#about">O mnie</Nav.Link>
+        <Nav.Link href="#services">Oferta</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>
-</Navbar>
+</Navbar> */}
     </div>
   )
 }

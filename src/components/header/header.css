@@ -1,4 +1,4 @@
-.hero-image {
+.hero__image {
     font-weight: 200;
     color:white;
 
@@ -25,3 +25,13 @@
       color:black;
       background: white;
   }
+
+  
+
+  /* ========== MEDIA QUERIES (SMALL DEVICES) ========*/
+
+@media screen and (max-width: 767px){
+    .hero__image {
+        padding: 5rem 1rem;
+    }
+}

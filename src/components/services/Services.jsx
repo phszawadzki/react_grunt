@@ -49,8 +49,9 @@ const services_1 = [
 
 const Services = () => {
   return (
-    <Container>
-        <h1>Oferta</h1>
+    <Container className='services'>
+        <h1 className='d-none d-sm-block'>Oferta</h1>
+        <h2 className='d-block d-sm-none'>Oferta</h2>
         <div className="services__container">
             <div className="services__item">
                 <div className="rectangle"></div>

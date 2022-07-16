@@ -30,7 +30,8 @@ const about = () => {
     <Container className='about__me about__me__small'>
       <Row>
         <Col xs={8} md={8} className='o_mnie'>
-          <h1>O mnie</h1>
+        <h1 className='d-none d-sm-block'>O mnie</h1>
+        <h2 className='d-block d-sm-none'>O mnie</h2>
         </Col>
         <Col xs={4} md={4} className='o_mnie2'>
           <img src={ ME } alt="Radek Marciniak" className='about__image'/>
